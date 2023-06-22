@@ -93,6 +93,7 @@ def placeable?(board, attack_stone_color)
       return true if put_stone!(board, position.to_cellstr, attack_stone_color, false)
     end
   end
+  false
 end
 
 def count_stone(board, stone_color)
